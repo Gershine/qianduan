@@ -48,19 +48,74 @@ header{
 }
 
 h3,
-p.author{
+.author{
 	color:#888;
+	margin-bottom:15px;
+	margin-top:15px;
 }
 
+p.paragraph{
+	line-height:1.8em;
+	text-indent:2em;
+}
 
+.p_pic{
+	padding-bottom:2em;
+	padding-top:2em;
+}
 
+#list{
+	list-style-type:none;
+	padding-left:2em;
+	line-height:1.5em;
+}
 
+.zuhe{
+	border:1px solid #bebebe;
+	margin:20px;
+	width:120px;
+	
+}
 
+.pic{
+	font-size:10px;
+	text-align:center;
+}
 
+.pic1{
+	margin:10px;
+}
 
+.rank{
+	margin-left:30px;
+	margin-bottom:20px;
+	font-size:16px;
+	font-weight:bold;
+}
 
+/*table content*/
+table{
+	border-collapse:collapse;
+}
 
+th,
+td{
+	font-size:.875em;
+	padding:.5em .75em;
+	border:1px solid #bebebe; 
+	width:400px;
+}
 
+thead{
+	background:black;
+	color:white;
+	text-align:left;
+}
+
+tfoot{
+	background:#ddd;
+	font-weight:bolder;
+}
 
 
 
