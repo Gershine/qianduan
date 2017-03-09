@@ -35,16 +35,7 @@ header{
 .article{
 	padding:2em 1.5em;
 	margin:1em;
-	background:#f7f7f7;
-}
-
-.form{
-	margin-top:3em;
-	margin-right:2em;
-	margin-bottom:1em;
-	margin-left:1em;
-	padding:2em 1.5em;
-	background:#f7f7f7;
+	background:#fff;
 }
 
 h3,
@@ -117,11 +108,47 @@ tfoot{
 	font-weight:bolder;
 }
 
+.form{
+	margin:3em 2em 2em 1em;
+	padding:2em 1.5em;
+	background:#fff;
+}
 
+aside h3{
+	height:40px;
+	line-height:40px;
+	padding-left:10px;
+	border-left:3px solid #ccc;
+	color:black;
+}
 
+fieldset{
+	margin:15px 0;
+	font-size:14px;
+	border:none;
+}
 
+label{
+	cursor:pointer;
+	width:150px;
+}
 
+label.field{
+	float:left;
+	text-align:right;
+	padding-right:15px;
+	width:35%;
+	border:2px solid #fff;
+	vertical-align:top;
+}
 
+fieldset p{
+	color:#aaa;
+	font-size:12px;
+	padding-top:5px;
+	margin-left:36.5%;
+	
+}
 
 
 

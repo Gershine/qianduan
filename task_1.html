@@ -134,54 +134,75 @@
 	</main>
 	
 	
-	<aside role="complementry">
-	<div class="form">
-		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-		<p class="row">
-			<label for="email">请输入邮箱地址</label>
-			<input type="email" name="email" id="email" placeholder="这里是一个文本输入框" class="field-large"/>
-		</p>
-		<p>邮箱请按要求格式输入</p>
-		<p class="row">
-			<label for="password">请输入密码</label>
-			<input type="password" id="password" name="password"/>
-			<label for="password">确认密码</label>
-			<input type="password" id="password" name="password"/>
-		</p>
-		<p>密码请为6-16位英文数字</p>
+	<aside role="complementry" class="form">
+		<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+		<form action="save.php" method="post">
+			<fieldset>
+				<label for="email" class="field">请输入邮箱地址</label>
+				<input type="email" name="email" id="email" placeholder="这里是一个文本输入框" autofocus />
+				<p>邮箱请按要求格式输入</p>
+			</fieldset>
+		</form>
 		
-		<p class="row">
-			<label for="gender">性别：</label>
-			<input type="radio" id="gender-male" name="gender" value="male"/>
-			<label for="gender-male">男</label>
-			<input type="radio" id="gender-female" name="gender" value="female"/>
-			<label for="gender-female">女</label>
+		<form action="save.php" method="post">
+			<fieldset>
+				<label for="password" class="field">请输入密码</label>
+				<input type="password" id="password" name="password" placeholder="密码"/>
+			</fieldset>
 			
-			<label for="city">城市:</label>
-			<select id="city" name="city">
-				<option value="BJ">北京</option>
-				<option value="SH">上海</option>
-				<option value="SZ">深圳</option>
-				<option value="GZ">广州</option>
-			</select>
-			
-			<label for="hobby">爱好：</label>
-			<input type="checkbox" id="hobby-sports" name="hobby"/>
-			<label for="hobby-sports">运动</label>
-			
-			<input type="checkbox" id="arts" name="hobby"/>
-			<label for="hobby-arts">艺术</label>
-			
-			<input type="checkbox" id="hobby-science" name="hobby"/>
-			<label for="hobby-science">科学</label>
-			
-			<label for="bio">个人描述：</label>
-			<textarea id="bio" name="bio" class="field-large"></textarea>
-			
-			<button type="submit" class="btn">确认提交</button>
+			<fieldset>
+				<label for="password" class="field">确认密码</label>
+				<input type="password" id="password" name="password" placeholder="确认密码"/>
+				<p>密码请为6-16位英文数字</p>
+			</fieldset>
+		</form>
 		
-		</p>
-	</div>
+		<form action="save.php" method="post">
+			<fieldset>
+				<label for="gender" class="field">性别：</label>
+				<input type="radio" id="gender-male" name="gender" value="male"/>
+				<label for="gender-male">男</label>
+				<input type="radio" id="gender-female" name="gender" value="female"/>
+				<label for="gender-female">女</label>
+			</fieldset>
+		</form>
+		
+		<form action="save.php" method="post">
+			<fieldset>
+				<label for="city" class="field">城市:</label>
+				<select id="city" name="city">
+					<option value="BJ">北京</option>
+					<option value="SH">上海</option>
+					<option value="SZ">深圳</option>
+					<option value="GZ">广州</option>
+				</select>
+			</fieldset>
+		</form>
+		
+		<form action="save.php" method="post">
+			<fieldset>
+				<label for="hobby" class="field">爱好：</label>
+				
+				<input type="checkbox" id="hobby-sports" name="hobby"/>
+				<label for="hobby-sports">运动</label>
+				
+				<input type="checkbox" id="hobby-arts" name="hobby"/>
+				<label for="hobby-arts">艺术</label>
+				
+				<input type="checkbox" id="hobby-science" name="hobby"/>
+				<label for="hobby-science">科学</label>
+			</fieldset>
+		</form>
+		
+		<form action="save.php" method="post">
+			<fieldset>
+				<label for="bio" class="field">个人描述：</label>
+				<textarea id="bio" name="bio" class="field-large" value="profile" ></textarea>
+			</fieldset>
+		</form>
+			
+		<button type="submit" class="btn">确认提交</button>
+	
 	</aside>
 	
 	
