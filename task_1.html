@@ -7,8 +7,8 @@
 </head>
 
 <body>
-	
 	<header role="banner">
+		<h1><a href="#"><img src="baidu.jpg" width="50" height="40"/></a></h1>
 		<nav role="navigation">
 			<ul class="nav">
 				<li><a href="www.baidu.com" class="nav">HomePage</a></li>
@@ -139,7 +139,7 @@
 		<form action="save.php" method="post">
 			<fieldset>
 				<label for="email" class="field">请输入邮箱地址</label>
-				<input type="email" name="email" id="email" placeholder="这里是一个文本输入框" autofocus />
+				<input type="email" name="email" id="email" placeholder="这里是一个文本输入框" />
 				<p>邮箱请按要求格式输入</p>
 			</fieldset>
 		</form>
@@ -159,7 +159,7 @@
 		
 		<form action="save.php" method="post">
 			<fieldset>
-				<label for="gender" class="field">性别：</label>
+				<label for="gender" class="field">性别</label>
 				<input type="radio" id="gender-male" name="gender" value="male"/>
 				<label for="gender-male">男</label>
 				<input type="radio" id="gender-female" name="gender" value="female"/>
@@ -169,7 +169,7 @@
 		
 		<form action="save.php" method="post">
 			<fieldset>
-				<label for="city" class="field">城市:</label>
+				<label for="city" class="field">城市</label>
 				<select id="city" name="city">
 					<option value="BJ">北京</option>
 					<option value="SH">上海</option>
@@ -181,7 +181,7 @@
 		
 		<form action="save.php" method="post">
 			<fieldset>
-				<label for="hobby" class="field">爱好：</label>
+				<label for="hobby" class="field">爱好</label>
 				
 				<input type="checkbox" id="hobby-sports" name="hobby"/>
 				<label for="hobby-sports">运动</label>
@@ -196,8 +196,8 @@
 		
 		<form action="save.php" method="post">
 			<fieldset>
-				<label for="bio" class="field">个人描述：</label>
-				<textarea id="bio" name="bio" class="field-large" value="profile" ></textarea>
+				<label for="bio" class="field">个人描述</label>
+				<textarea id="bio" name="bio" class="field-large" placeholder="这是一个多行输入框，输入您的个人描述" cols="100" rows="7" ></textarea>
 			</fieldset>
 		</form>
 			
@@ -206,10 +206,10 @@
 	</aside>
 	
 	
-	<div class="article">
+	<div class="footer">
 	<footer>
 		<p>
-			<small>&copy;版权所有</small>
+			<small>版权所有&copy;</small>
 		</p>
 	</footer>
 	</div>

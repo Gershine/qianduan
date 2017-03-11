@@ -14,22 +14,31 @@ header{
 	height:60px;
 }
 
-.nav{
-	padding-right:20px;
+h1 img{
+	padding-left:20px;
+	height:59px;
+	width:80px;
+}
+nav ul{
+	position:absolute;
+	top:0;
+	right:10px;
 }
 
 
 
-.nav li{
+nav ul li{
 	display:inline-block;
 	float:right;
+
 }
 
 .nav li a{
-	color:#f7f7f7;
+	color:#ddd;
 	text-decoration:none;
 	padding:20px;
 	display:inline-block;
+	font-size:12px;
 }
 
 .article{
@@ -150,6 +159,25 @@ fieldset p{
 	
 }
 
+button{
+	background:blue;
+	color:white;
+	text-align:center;
+	font-size:16px;
+	width:1250px;
+	height:2.5em;
+	font-weight:bold;
+	border-radius:12px;
+	border-color:blue;
+}
+
+footer p{
+	background:black;
+	color:white;
+	text-align:center;
+	height:60px;
+	padding-top:20px;
+}
 
 
 
