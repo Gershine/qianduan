@@ -1,0 +1,183 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:微软雅黑;
+	background:#e6e6e6;
+}
+
+header{
+	position:relative;
+	background:#333;
+	height:60px;
+}
+
+h1 img{
+	padding-left:20px;
+	height:59px;
+	width:80px;
+}
+nav ul{
+	position:absolute;
+	top:0;
+	right:10px;
+}
+
+
+
+nav ul li{
+	display:inline-block;
+	float:right;
+
+}
+
+.nav li a{
+	color:#ddd;
+	text-decoration:none;
+	padding:20px;
+	display:inline-block;
+	font-size:12px;
+}
+
+.article{
+	padding:2em 1.5em;
+	margin:1em;
+	background:#fff;
+}
+
+h3,
+.author{
+	color:#888;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+p.paragraph{
+	line-height:1.8em;
+	text-indent:2em;
+}
+
+.p_pic{
+	padding-bottom:2em;
+	padding-top:2em;
+}
+
+#list{
+	list-style-type:none;
+	padding-left:2em;
+	line-height:1.5em;
+}
+
+.zuhe{
+	border:1px solid #bebebe;
+	margin:20px;
+	width:120px;
+	
+}
+
+.pic{
+	font-size:10px;
+	text-align:center;
+}
+
+.pic1{
+	margin:10px;
+}
+
+.rank{
+	margin-left:30px;
+	margin-bottom:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+/*table content*/
+table{
+	border-collapse:collapse;
+}
+
+th,
+td{
+	font-size:.875em;
+	padding:.5em .75em;
+	border:1px solid #bebebe; 
+	width:400px;
+}
+
+thead{
+	background:black;
+	color:white;
+	text-align:left;
+}
+
+tfoot{
+	background:#ddd;
+	font-weight:bolder;
+}
+
+.form{
+	margin:3em 2em 2em 1em;
+	padding:2em 1.5em;
+	background:#fff;
+}
+
+aside h3{
+	height:40px;
+	line-height:40px;
+	padding-left:10px;
+	border-left:3px solid #ccc;
+	color:black;
+}
+
+fieldset{
+	margin:15px 0;
+	font-size:14px;
+	border:none;
+}
+
+label{
+	cursor:pointer;
+	width:150px;
+}
+
+label.field{
+	float:left;
+	text-align:right;
+	padding-right:15px;
+	width:35%;
+	border:2px solid #fff;
+	vertical-align:top;
+}
+
+fieldset p{
+	color:#aaa;
+	font-size:12px;
+	padding-top:5px;
+	margin-left:36.5%;
+	
+}
+
+button{
+	background:blue;
+	color:white;
+	text-align:center;
+	font-size:16px;
+	width:1250px;
+	height:2.5em;
+	font-weight:bold;
+	border-radius:12px;
+	border-color:blue;
+}
+
+footer p{
+	background:black;
+	color:white;
+	text-align:center;
+	height:60px;
+	padding-top:20px;
+}
+
+
+

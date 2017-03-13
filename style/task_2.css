@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family:微软雅黑;
+}
+
+body{
+	background:#eee;
+}
+
+div.team{
+	background:white;
+	width:200px;
+	height:120px;
+	border:1px solid #999;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+img.team_pic{
+	position:relative;
+	border:3px solid #bebebe;
+	top:20px;
+	left:20px;
+	
+}
+
+.team p{
+	position:absolute;
+	width:80px;
+	top:40px;
+	left:140px;
+}
+
+div.person{
+	background:white;
+	width:120px;
+	border:1px solid #999;
+	padding:20px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	margin-left:20px;
+}
+
+img.p_pic{
+	border:2px solid #999;
+	margin-bottom:10px;
+}
+
+div.article{
+	background:white;
+	border:1px solid #999;
+	margin-top:20px;
+	clear:left;
+	margin-right:160px;
+	margin-left:240px;
+	margin-top:20px;
+	padding:20px;
+	position:absolute;
+}
+
+.person img:last-child{
+	margin-bottom:0;
+}
