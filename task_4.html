@@ -1,0 +1,246 @@
+<!DOCTYPE html/>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Task_4</title>
+	<link rel="stylesheet" href="style/task_4.css"/>
+</head>
+
+<body>
+	<div class="page">
+		<header role="banner">
+			<h1><a href="#"><img src="image/baidu.jpg" alt="logo-index"/></a></h1>
+			<nav role="navigation">
+				<ul class="nav">
+					<li><a href="www.baidu.com" class="nav">HomePage</a></li>
+					<li><a href="www.sina.com" class="nav">Introdution</a></li>
+					<li><a href="www.qq.com" class="nav">ContactUs</a></li>
+					<li><a href="www.163.com" class="nav">LearnMore</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="sidebar">
+			<aside role="complementry" class="form">
+				<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+				<form action="save.php" method="post">
+					<fieldset>
+						<label for="email" class="field">请输入邮箱地址</label>
+						<input type="email" name="email" id="email" placeholder="这里是一个文本输入框" />
+						<p>邮箱请按要求格式输入</p>
+					</fieldset>
+				</form>
+				
+				<form action="save.php" method="post">
+					<fieldset>
+						<label for="password" class="field">请输入密码</label>
+						<input type="password" id="password" name="password" placeholder="密码"/>
+					</fieldset>
+					
+					<fieldset>
+						<label for="password" class="field">确认密码</label>
+						<input type="password" id="password" name="password" placeholder="确认密码"/>
+						<p>密码请为6-16位英文数字</p>
+					</fieldset>
+				</form>
+				
+				<form action="save.php" method="post">
+					<fieldset>
+						<label for="gender" class="field">性别</label>
+						<input type="radio" id="gender-male" name="gender" value="male"/>
+						<label for="gender-male">男</label>
+						<input type="radio" id="gender-female" name="gender" value="female"/>
+						<label for="gender-female">女</label>
+					</fieldset>
+				</form>
+				
+				<form action="save.php" method="post">
+					<fieldset>
+						<label for="city" class="field">城市</label>
+						<select id="city" name="city">
+							<option value="BJ">北京</option>
+							<option value="SH">上海</option>
+							<option value="SZ">深圳</option>
+							<option value="GZ">广州</option>
+						</select>
+					</fieldset>
+				</form>
+				
+				<form action="save.php" method="post">
+					<fieldset>
+						<label for="hobby" class="field">爱好</label>
+						
+						<input type="checkbox" id="hobby-sports" name="hobby"/>
+						<label for="hobby-sports">运动</label>
+						
+						<input type="checkbox" id="hobby-arts" name="hobby"/>
+						<label for="hobby-arts">艺术</label>
+						
+						<input type="checkbox" id="hobby-science" name="hobby"/>
+						<label for="hobby-science">科学</label>
+					</fieldset>
+				</form>
+				
+				<form action="save.php" method="post">
+					<fieldset>
+						<label for="bio" class="field">个人描述</label>
+						<textarea id="bio" name="bio" class="field-large" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+					</fieldset>
+				</form>
+					
+				<button type="submit" class="btn">确认提交</button>
+			
+			</aside>
+		</div>
+		<div class="main">
+			<main>
+				<article class="article">
+					<h2>文章一级标题</h2>
+					<h3>文章二级标题</h3>
+					<h5 class="author">文章作者 文章发表时间</h5>
+					<p class="paragraph">  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+					这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+					<p class="paragraph">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+					这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" rel="external" target="doodad">这里有一个链接到百度学院。</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+					这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+					这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.</p>
+					<img class="p_pic" src="D:/office/picture/flower.jpg"/>	
+				</article>
+				
+				<article class="article">
+					<h2>另一篇文章一级标题</h2>
+					<h3>文章二级标题</h3>
+					<h5 class="author">文章作者 文章发表时间</h5>
+					<p class="paragraph">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+					这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+					<p class="paragraph">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+					这是一个很长很长的段落，</p>
+					<p class="paragraph">这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接到百度学院。</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+					这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+					这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.</p>
+					<img class="p_pic" src="D:/office/picture/Desert.jpg" />	
+					<ul id="list">
+						<li>列表项目一</li>
+						<li>列表项目二</li>
+						<li>列表项目三</li>
+					</ul>
+				</article>
+				
+			<div class="article">
+				<h2 id="piture">图片</h2>
+				
+				<div class="zuhe">
+				<P class="pic">好看的图片</P>
+				<img class="pic1" src="D:/office/picture/Penguins.jpg"/>
+				</div>
+				
+				<div class="zuhe">
+				<P class="pic">好看的图片</P>
+				<img class="pic1" src="D:/office/picture/Chrysanthemum.jpg" />
+				</div>
+				
+				<div class="zuhe">
+				<p class="pic">好看的图片</p>
+				<img class="pic1" src="D:/office/picture/Hydrangeas.jpg"/>
+				</div>
+				
+				<div class="zuhe">
+				<p class="pic">好看的图片</p>
+				<img class="pic1" src="D:/office/picture/Jellyfish.jpg"/>
+				</div>
+				
+				<div class="zuhe">
+				<p class="pic">好看的图片</p>
+				<img class="pic1" src="D:/office/picture/Koala.jpg"/>
+				</div>
+				
+				<div class="zuhe">
+				<P class="pic">好看的图片</P>
+				<img class="pic1" src="D:/office/picture/Penguins.jpg"/>
+				</div>
+				
+				<div class="zuhe">
+				<P class="pic">好看的图片</P>
+				<img class="pic1" src="D:/office/picture/Chrysanthemum.jpg" />
+				</div>
+				
+				<div class="zuhe">
+				<p class="pic">好看的图片</p>
+				<img class="pic1" src="D:/office/picture/Hydrangeas.jpg"/>
+				</div>
+				
+				<div class="zuhe">
+				<p class="pic">好看的图片</p>
+				<img class="pic1" src="D:/office/picture/Jellyfish.jpg"/>
+				</div>
+				
+				<div class="zuhe">
+				<p class="pic">好看的图片</p>
+				<img class="pic1" src="D:/office/picture/Koala.jpg"/>
+				</div>
+			</div>
+				
+			<div class="article">
+				<h2>最后一篇文章一级标题</h2>
+					<h3>文章二级标题</h3>
+					<h5 class="author">文章作者 文章发表时间</h5>
+				<div class="rank">
+					<ol>
+						<li>排名1</li>
+						<li>排名2</li>
+						<li>排名3</li>
+					</ol>
+				</div>
+
+				<table>
+					<caption>这是一个表格</caption>
+					<thead>
+					<tr>
+						<th scope="col">表头1</th>
+						<th scope="col">表头2</th>
+						<th scope="col">表头3</th>
+					</tr>
+					</thead>
+					
+					<tbody>
+					<tr>
+						<td>内容1</td>
+						<td>内容1</td>
+						<td>内容1</td>
+					</tr>
+					
+					<tr>
+						<td>内容2</td>
+						<td>内容2</td>
+						<td>内容2</td>
+					</tr>
+					
+					<tr>
+						<td>内容3</td>
+						<td>内容3</td>
+						<td>内容3</td>
+					</tr>
+					</tbody>
+					
+					<tfoot>
+					<tr>
+						<td>总计</td>
+						<td colspan="2">1000</td>
+					</tr>
+					</tfoot>
+				</table>
+			</div>
+			
+			</main>
+		</div>
+		
+		
+		<div class="footer">
+		<footer>
+			<p>
+				<small>版权所有&copy;</small>
+			</p>
+		</footer>
+		</div>
+	</div>
+</body>
+</html>
