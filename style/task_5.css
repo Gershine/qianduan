@@ -155,12 +155,53 @@ h3{
 	margin-left:10px;
 }
 
+.left-block{
+	clear:left;
+	width:415px;
+}
+	
+h2 span#the{
+	font-family:黑体;
+	color:#f5e327;
+	font-size:72px;
+	font-style:italic;
+}
+
+#title1{
+	font-size:42px;
+	color:#11456b;
+	font-family:黑体;
+	display:block;
+	padding-top:48px;
+}
 
 
+#title2{
+	font-size:33px;
+	color:#11456b;
+	font-family:黑体;
+}
 
+#middle-line{
+	width:415px;
+	height:2px;
+	background:#11456b;
+	margin-bottom:16px;
+	margin-top:16px;
+}
 
+#qian{
+	font-size:70px;
+	color:#f5e327;
+	float:left;
+	margin-top:-12px;
+	margin-right:12px;	
+}
 
-
+.code{
+	float:right;
+	margin-top:100px;
+}
 
 
 
