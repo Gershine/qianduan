@@ -219,7 +219,7 @@ h2 span#the{
 .right-block{
 	float:right;
 	width:458px;
-	margin-top:-585px;
+	margin-top:-618px;
 	margin-right:44px;
 	position:relative;
 }
@@ -267,13 +267,121 @@ h2 span#the{
 
 ul{
 	list-style:none;
-	padding-left:24px;
-	margin-left:24px;
+	padding-left:0;
+	margin-left:2em;
+	margin-top:1.5em;
+	padding-top:1em;
 }
 
 li{
-	background:url(D:/office/IFE2016/qianduan/image/triangle.png) no-repeat 0 0;
+	background: url(D:/office/IFE2016/qianduan/image/triangle.png) no-repeat 0 8px;
+	line-height:2.5em;
+	padding-left:2em;
+	font-family:宋体;
+	color:#5a5b5b;
+	font-size:16px;
 }
+
+ul li span{
+	font-size:12px;
+	font-style:italic;
+}
+
+#red-block{
+	width:260px;
+	height:160px;
+	background:#d45d5c;
+	position:relative;
+	margin-top:15px;
+}
+
+#o{
+	font-size:110px;
+	color:#fff;
+	margin-left:12px;
+}
+
+#shutiao{
+	width:2px;
+	height:86px;
+	background:#fff;
+	position:absolute;
+	margin-left:82px;
+}
+
+#o,
+#shutiao,
+.para4{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.para4{
+	font-family:黑体;
+	color:#fff;
+	margin-left:94px;
+}
+
+.para4 .one{
+	font-size:21px;
+	font-style:italic;
+}
+
+.para4 .hello-world1{
+	font-size:12px;
+}
+
+.hello-world2{
+	display:block;
+	width:198px;
+	height:160px;
+	float:right;
+	font-family:黑体;
+	font-size:14px;
+	color:#5a5b5b;
+	font-style:italic;
+	margin-top:-140px;
+	position:absolute;
+	left:59%;
+}
+
+.hello-world2  span{
+	font-size:72px;
+	color:#d45d5c;
+	font-style:normal;
+}
+
+.left-comma{
+	float:left;
+	margin:-20px 10px 0 -40px;
+	height:30px;
+}
+
+.right-comma{
+	float:right;
+}
+
+.footer{
+	width:892px;
+}
+
+.footer .bottom-line{
+	height:1px;
+	width:892px;
+	background:#938e8c;
+	margin-top:48px;
+}
+
+.footer .site2{
+	font-family:黑体;
+	font-size:12px;
+	color:#d45d5c;
+	float:right;
+}
+
+
+
 
 
 
